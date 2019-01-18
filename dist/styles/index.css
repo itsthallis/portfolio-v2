@@ -1,2 +1,5 @@
-html, body {
-  margin: 0; }
+body, html {
+  font-size: 16px; }
+
+p {
+  font-size: 0.8rem; }
