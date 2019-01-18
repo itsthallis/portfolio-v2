@@ -1,9 +1,26 @@
-$fullheight = 100vh
-$fullwidth = 100vw
+@import "../../node_modules/bootstrap/dist/css/bootstrap.css"
+
+$fullheight : 100vh
+$fullwidth : 100vw
 
 body,html
+	margin: 0
 	font-size: 16px
 
 p
 	font-size: 0.8rem
 	
+.fullheight
+	height: $fullheight
+
+.fullwidth
+	width: $fullwidth
+
+#main-image
+	-webkit-clip-path: circle(50% at 50% 50%)
+	clip-path: circle(50% at 50% 50%)
+	background-image: url("../images/foto.jpg")
+	background-repeat: no-repeat
+	background-size: cover
+	height: 250px
+	width: 250px
