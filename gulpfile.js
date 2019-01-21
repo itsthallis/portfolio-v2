@@ -22,7 +22,7 @@ gulp.task('jade', function() {
             locals: YOUR_LOCALS,
             pretty: true
         }))
-        .pipe(gulp.dest('./dist/'))
+        .pipe(gulp.dest('./'))
 });
 
 // Sass
@@ -60,7 +60,7 @@ gulp.task('images', function() {
 
 // Html
 gulp.task('html', function() {
-    gulp.src('./dist/*.html')
+    gulp.src('./*.html')
         .pipe(livereload());
 });
 
@@ -70,7 +70,7 @@ gulp.task('watch', function() {
     gulp.watch('src/js/**/*.js', ['scripts']);
     gulp.watch('src/styles/**/*.sass', ['sass', 'lreload']);
     gulp.watch('src/**/*.jade', ['jade']);
-    gulp.watch('./dist/*.html', ['html']);
+    gulp.watch('./*.html', ['html']);
     gulp.watch('src/images/**/*', ['images']);
     gulp.watch('dist/images/**/*', ['lreload']);
 });

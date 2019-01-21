@@ -3,11 +3,10 @@ html(lang="pt-br")
 head
 	meta(charset="UTF-8")
 	title Thallis Oliveira S. | Designer
-	link(rel="stylesheet", href="styles/index.css")
+	link(rel="stylesheet", href="./dist/styles/index.css")
 body
-	.fullheight.d-flex.justify-content-center.align-items-center
-		.container.d-flex.justify-content-center
-			#main-image
-			div lorem
-
-	script(src="/dist/js/index.js")
+	include intro
+	img.img-fluid(src="./dist/images/waves.svg" width="100%")
+	include sobre
+	include oqueeufaco
+	include contato

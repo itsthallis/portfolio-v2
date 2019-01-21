@@ -1,10 +1,27 @@
 @import url(../../node_modules/bootstrap/dist/css/bootstrap.css);
+@import url("https://fonts.googleapis.com/css?family=Lato");
+@font-face {
+  font-family: 'cerabold';
+  src: url("../../fonts/cera_bold-webfont.woff2") format("woff2"), url("../../fonts/cera_bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
 body, html {
   margin: 0;
-  font-size: 16px; }
+  font-size: 16px;
+  font-kerning: normal; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'cerabold';
+  color: #000; }
 
 p {
-  font-size: 0.8rem; }
+  color: #878787;
+  font-size: 0.8rem;
+  font-family: 'Lato', sans-serif; }
+
+.vheight-80 {
+  height: 80vh; }
 
 .fullheight {
   height: 100vh; }
@@ -12,11 +29,27 @@ p {
 .fullwidth {
   width: 100vw; }
 
-#main-image {
-  -webkit-clip-path: circle(50% at 50% 50%);
-  clip-path: circle(50% at 50% 50%);
-  background-image: url("../images/foto.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 250px;
-  width: 250px; }
+.bluetext {
+  color: #006CD8; }
+
+.bluebg {
+  background-color: #006CD8; }
+
+.lightraytext {
+  color: #878787; }
+
+.lightgraybg {
+  background-color: #878787; }
+
+.box {
+  height: 100px;
+  width: 100px;
+  background-color: #878787; }
+
+.btn {
+  border-radius: 50px;
+  padding: 15px 32px 15px 32px;
+  border: solid #006CD8 2px;
+  color: #006CD8;
+  font-size: 1rem;
+  font-family: 'cerabold'; }

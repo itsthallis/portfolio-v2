@@ -1,0 +1,52 @@
+@font-face {
+  font-family: 'cerablack';
+  src: url("fonts/cera-black-webfont.woff2") format("woff2"), url("fonts/cera-black-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'cerabold';
+  src: url("fonts/cera-bold-webfont.woff2") format("woff2"), url("fonts/cera-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'cerabold_italic';
+  src: url("fonts/cera-bolditalic-webfont.woff2") format("woff2"), url("fonts/cera-bolditalic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'ceramedium';
+  src: url("fonts/cera-medium-webfont.woff2") format("woff2"), url("fonts/cera-medium-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'ceraregular';
+  src: url("fonts/cera-regular-webfont.woff2") format("woff2"), url("fonts/cera-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'ceraitalic';
+  src: url("fonts/cera-regularitalic-webfont.woff2") format("woff2"), url("fonts/cera-regularitalic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+
+
+
+
+
+
+
+
+    @font-face {
+      font-family: 'cerablack';
+      src: url("fonts/typemates_-_cerapro-regular-webfont.woff2") format("woff2"), url("fonts/typemates_-_cerapro-regular-webfont.woff") format("woff");
+      font-weight: normal;
+      font-style: normal; }
+
+        html, body{
+/*    width: 100%;*/
+    font-family: 'cerablack' !important;
+    -webkit-font-smoothing: antialiased;
+}
