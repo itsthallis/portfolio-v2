@@ -2,11 +2,19 @@
 html(lang="pt-br")
 head
 	meta(charset="UTF-8")
+	meta(name="viewport" content="width=device-width, initial-scale=1")
 	title Thallis Oliveira S. | Designer
 	link(rel="stylesheet", href="./dist/styles/index.css")
 body
 	include intro
 	img.img-fluid(src="./dist/images/waves.svg" width="100%")
+
 	include sobre
+	.container.d-flex.justify-content-end
+		img(src="./dist/images/lines1.svg" width="200px" height="300px")
+
 	include oqueeufaco
+	.d-flex.justify-content-center.align-items-baseline.vheight-20.mt10
+		img.img-fluid(src="./dist/images/lines2.svg" width="400px" height="")
+		
 	include contato

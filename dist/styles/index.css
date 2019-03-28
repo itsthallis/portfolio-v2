@@ -20,14 +20,23 @@ p {
   font-size: 0.8rem;
   font-family: 'Lato', sans-serif; }
 
+.mt10 {
+  margin-top: 22vh; }
+
+.vheight-20 {
+  min-height: 22vh; }
+
+.vheight-60 {
+  min-height: 60vh; }
+
 .vheight-80 {
-  height: 80vh; }
+  min-height: 80vh; }
 
 .fullheight {
-  height: 100vh; }
+  min-height: 100vh; }
 
 .fullwidth {
-  width: 100vw; }
+  min-width: 100vw; }
 
 .bluetext {
   color: #006CD8; }
@@ -45,6 +54,9 @@ p {
   height: 100px;
   width: 100px;
   background-color: #878787; }
+
+#vamoscriarimg {
+  max-width: 50vh; }
 
 .btn {
   border-radius: 50px;

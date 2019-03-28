@@ -1,0 +1,5 @@
+.row.justify-content-center
+			.col-md-3
+				h1 O que eu faço_
+			.col-md-3.offset-md-1
+			.col-md-3.offset-md-1

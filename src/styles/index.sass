@@ -7,6 +7,9 @@
 	font-weight: normal
 	font-style: normal
 
+$vheight-10: 10vh
+$vheight-20: 22vh
+$vheight-60: 60vh
 $vheight-80: 80vh
 $fullheight: 100vh
 $fullwidth: 100vw
@@ -27,14 +30,23 @@ p
 	font-size: 0.8rem
 	font-family: 'Lato', sans-serif
 
+.mt10
+	margin-top: $vheight-20
+
+.vheight-20
+	min-height: $vheight-20
+
+.vheight-60
+	min-height: $vheight-60
+
 .vheight-80
-	height: $vheight-80
+	min-height: $vheight-80
 
 .fullheight
-	height: $fullheight
+	min-height: $fullheight
 
 .fullwidth
-	width: $fullwidth
+	min-width: $fullwidth
 
 .bluetext
 	color: $blue
@@ -53,6 +65,8 @@ p
 	width: 100px
 	background-color: $lightgray
 
+#vamoscriarimg
+	max-width: 50vh
 
 // Bootstrap overrides
 
